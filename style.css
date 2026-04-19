@@ -1,0 +1,45 @@
+body.dark-theme {
+    background-color: #141414;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.logo {
+    color: #E50914;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 900;
+    text-shadow: 0 0 10px rgba(229, 9, 20, 0.6), 0 0 20px rgba(229, 9, 20, 0.3);
+}
+
+.project-header {
+    padding: 60px 4%;
+    text-align: center;
+}
+
+.metrics-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.metric-card {
+    background: #1f1f1f;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+    border-bottom: 4px solid #333;
+}
+
+.metric-card.highlight {
+    border-bottom-color: #E50914; /* Brand Red accent */
+}
+
+.metric-card h3 {
+    font-size: 3rem;
+    margin: 0;
+    color: #E50914;
+}
